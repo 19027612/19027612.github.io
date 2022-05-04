@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Swift Computer Repairs</title>
+        <meta charset="UTF-8">
+        <!--stylesheets and fonts-->
+        <link href="styles.css" rel="stylesheet">    
+    </head>
+    
+    <body onload="unload()">
+        <script>
+            function unload(){
+                document.getElementById("slowdescription").style.marginLeft = "25px";
+                document.getElementById("slowdescription").style.display = "none";
+
+                document.getElementById("mediumdescription").style.marginLeft = "25px";
+                document.getElementById("mediumdescription").style.display = "none";
+
+                document.getElementById("fastdescription").style.marginLeft = "25px";
+                document.getElementById("fastdescription").style.display = "none";
+            }
+            function slowload(){
+                document.getElementById("slowdescription").style.display = "block";
+            }
+            function mediumload(){
+                document.getElementById("mediumdescription").style.display = "block";
+            }
+            function fastload(){
+                document.getElementById("fastdescription").style.display = "block";
+            }
+        </script>
+        <nav>
+            <!---the horizontal nav bar goes here-->
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="products.html" style="color: blue;"><li>Products</li></a>      
+                <a href="repairs.html"><li>Repairs</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul>
+        </nav>
+        <h1 id="needsmargin">Here are some porducts that we have for sale in our shop:</h1>
+        <h2>This is only a small part of our product range to browse all of our products please visit our shop</h2>
+        <div class="productbox">
+            <img src="images/slowPC.png" alt="a picture of a slow computer">
+            <div id="slowdescription">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione quos saepe corrupti quo at, a placeat. Culpa dolorum et suscipit hic laboriosam corporis quidem omnis eveniet fugiat, nemo quas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione quos saepe corrupti quo at, a placeat. Culpa dolorum et suscipit hic laboriosam corporis quidem omnis eveniet fugiat, nemo quas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione quos saepe corrupti quo at, a placeat. Culpa dolorum et suscipit hic laboriosam corporis quidem omnis eveniet fugiat, nemo quas.</p>
+            </div>
+        </div>
+        <br>
+        <button class="buttonbox" onclick="slowload()">More Details</button>
+
+        <div class="productbox">
+            <img src="images/mediumPC.png" alt="a picture of a mid range computer">
+            <div id="mediumdescription">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione quos saepe corrupti quo at, a placeat. Culpa dolorum et suscipit hic laboriosam corporis quidem omnis eveniet fugiat, nemo quas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione quos saepe corrupti quo at, a placeat. Culpa dolorum et suscipit hic laboriosam corporis quidem omnis eveniet fugiat, nemo quas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione quos saepe corrupti quo at, a placeat. Culpa dolorum et suscipit hic laboriosam corporis quidem omnis eveniet fugiat, nemo quas.</p>
+            </div>
+        </div>
+        <br>
+        <button class="buttonbox" onclick="mediumload()">More Details</button>
+
+        <div class="productbox">
+            <img src="images/fastPC.png" alt="a picture of a fast computer">
+            <div id="fastdescription">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione quos saepe corrupti quo at, a placeat. Culpa dolorum et suscipit hic laboriosam corporis quidem omnis eveniet fugiat, nemo quas.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione quos saepe corrupti quo at, a placeat. Culpa dolorum et suscipit hic laboriosam corporis quidem omnis eveniet fugiat, nemo quas.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione quos saepe corrupti quo at, a placeat. Culpa dolorum et suscipit hic laboriosam corporis quidem omnis eveniet fugiat, nemo quas.</p>
+            </div>
+        </div>
+        <br>
+        <button class="buttonbox" onclick="fastload()">More Details</button>
+
+        <h2 id="ComponentSection">Here are some of the Top selling components that we have in stock</h2>
+        <div class="productbox">
+            <img src="images/cpu.png" alt="a picture of a CPU">
+            <div class="componenttable">
+            <h3 id="tablename">CPU Details</h3>
+            <table>
+                <tr>
+                  <th>Speed</th>
+                  <th>5 GHZ</th>
+                </tr>
+                <tr>
+                    <th>Cache size</th>
+                    <th>8 MB</th>
+                  </tr>
+                  <tr>
+                    <th>Core Count</th>
+                    <th>16</th>
+                  </tr>
+                  <tr>
+                    <th>Threads Count</th>
+                    <th>32</th>
+                  </tr>                      <!---if possible add more rows to this table---->
+              </table>
+            </div>
+        </div>
+        <br>
+        <br>
+            <div class="productbox">
+                <img src="images/gpu3.png" alt="a picture of a GPU">
+                <div class="componenttable">
+                <h3 id="tablename">GPU Details</h3>
+                <table>
+                    <tr>
+                      <th>Speed</th>
+                      <th>1.8 GHZ</th>
+                    </tr>
+                    <tr>
+                        <th>VRAM (Video Memory)</th>
+                        <th>8 GB</th>
+                      </tr>
+                      <tr>
+                        <th>Cuda Cores</th>
+                        <th>800</th>
+                      </tr>                     <!---if possible add more rows to this table---->
+                  </table>
+                </div>
+            </div>
+
+            <br>
+        <br>
+            <div class="productbox">
+                <img src="images/ram.png" alt="a picture of a stick of RAM">
+                <div class="componenttable">
+                <h3 id="tablename">RAM Details</h3>
+                <table>
+                    <tr>
+                      <th>Speed</th>
+                      <th>1.8 GHZ</th>
+                    </tr>
+                    <tr>
+                        <th>Size</th>
+                        <th>2 x 16GB</th>
+                      </tr>
+                      <tr>
+                        <th>Cas Latency</th>
+                        <th>8</th>
+                      </tr> 
+                      <tr>
+                        <th>Type</th>
+                        <th>DDR3</th>
+                      </tr>                     <!---if possible add more rows to this table---->
+                  </table>
+                </div>
+            </div>
+        </div>
+        <h3 style="margin-top: 10%;">Our Contact methods are shown below</h3>
+            <footer>
+                <div class="methods">
+                    <ul>
+                        <li><a href="contact.html">Our Contact Form</a></li>
+                        <li>123456789</li>
+                        <li>SwiftComputing@SwiftComputing.com</li>
+                        <li>11 High Street Aberdeen</li>
+                        <li>Postcode</li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img src="images/swift-logo2.png" alt="a picture of the companies logo">
+                </div>
+            </footer>
+    </body>
+</html>
+<!---<button onclick="window.location.href ='index.html'">More Details</button>--->

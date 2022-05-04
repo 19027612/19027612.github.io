@@ -1,0 +1,213 @@
+/*This is the generic serction*/
+body{
+    background-color: #00BD5F;
+}
+.Large{
+    text-decoration: underline;
+}
+.Products{
+    margin-top: 3%;
+}
+.Components{
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.content{
+    margin-top: 15rem;
+}
+
+/*this is the nav bar section*/     /*if going for the 4 blocks nav bar design remove the on hover upscale and put underline instead*/
+nav{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+    background:linear-gradient(0deg, rgba(220, 220, 220, 0.75), rgba(120, 120, 120, 0.75)), url(images/top3.jpg);
+    background-size: cover;
+    height: 200px;
+    /*margin-top: 5em;
+    /*background-color: black;        /*the black is temporary this can be changed to match the colour scheme*/
+}
+nav ul{
+    margin: 5px;
+    margin-left: 0;
+    list-style: none;
+    font-size: 2.5rem;
+}
+nav ul li{
+    display: inline-block;
+    cursor: pointer;
+    padding: 25px;
+    margin-top: 75px;
+    margin-left: 1em;
+}
+nav a:visited{
+    color: black;       /*this colour is also temporary and may be removed whenever*/
+}
+nav a:link{
+    color: black;
+}
+nav a:hover{
+    text-align: center;
+}
+
+/*header{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 60px;
+    /*background-image: url(images/header.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+/*this section is for the home page information box*/
+section p{
+    margin-top: 2em;
+    margin-left: 6px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#FAQ{
+    margin-top: 5%;
+
+}
+#FAQ ul li{
+    font-size: larger;
+    list-style-type: circle;
+}
+#DetailedFAQ{
+    margin-top: 2.5%;
+}
+#DetailedFAQ p{
+    font-size: large;
+    margin-top: 0;;
+}
+
+/*this section is for the products page*/
+#needsmargin{
+    margin-top: 220px;
+    margin-bottom: 2.5rem;
+}
+#ComponentSection{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.productbox{
+    display: flex;
+    margin-top: 2rem;
+}
+.tester{
+    display: inline-block;
+}
+.productbox img{
+    min-width: 225px;
+    max-width: 225px;
+    min-height: 225px;
+    max-height: 225px;
+}
+.productbox2{
+    display: flex;
+}
+.productbox2 img{
+    margin-top: 5rem;
+    min-width: 225px;
+    max-width: 225px;
+    min-height: 225px;
+    max-height: 225px;
+}
+.buttonbox{
+    display: inline-block;
+}
+.test{
+    float: right;
+}
+.componenttable{
+    margin-left: 250px;
+    width: 100%;
+}
+
+/*This area is for the table about product*/
+#tablename{
+    font-size: 2rem;
+}
+table,th{
+    font-size: 25px;
+    border: 1px solid black;
+}
+table,td{
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+/*this section is for the repairs page*/
+
+#repairbasic{
+    margin-left: 0.5rem;
+}
+ol{
+    font-size: 18px;
+}
+
+/*this section is for the contact form*/
+form{
+    font-size: large;
+}
+form label{
+    margin-right: 5px;
+}
+form textarea{
+    min-width: 100px;
+    max-width: 450px; /*470*/
+    min-height: 50px;
+}
+.formap{
+    display: flex;
+    margin-top: 5%;
+}
+.formap form{
+    flex: 50%;
+}
+form input{
+    font-size: 18px;
+}
+#map iframe{
+    /*margin-left: 10rem;*/
+    margin-right: 1rem;
+    min-width: 600px;
+    min-height: 450px;
+    max-width: 900px;
+    max-height: 675px;
+    /*width: 900px;
+    height: 675px;*/
+}
+
+/*this is the section for the footer*/
+footer{
+    /*background-color: #040714;*/
+    margin-bottom: 0;
+    display: flex;
+    min-height: fit-content;
+    max-height: fit-content;
+}
+footer li{
+    margin-right: 2%;
+}
+footer a:visited{
+    color: blue;
+}
+footer .methods{
+    margin-right: 10%;
+}
+footer img{
+    min-height: 200px;
+    max-height: 200px;
+}
+
+
+
+
+

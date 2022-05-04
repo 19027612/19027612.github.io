@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Swift Computer Repairs</title>
+        <meta charset="UTF-8">
+        <!--stylesheets and fonts-->
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <!---the horizontal nav bar goes here-->
+            <ul>
+                <a href="index.html" tabindex="1"><li>Home</li></a>
+                <a href="products.html" tabindex="2"><li>Products</li></a>      
+                <a href="repairs.html" tabindex="3"><li>Repairs</li></a>
+                <a href="contact.html" style="color: blue;" tabindex="4"><li>Contact</li></a>
+            </ul>
+        </nav>
+    <div class="content">
+        <h3>If you have any Questions please contact the shop directly using the contact form below:</h3>
+        <div class="formap">
+        <form>
+            <label>Please enter your Name</label><br>
+            <input type ="text" placeholder="Name" name="Name" required tabindex="4"><br><br>
+
+            <label>Please enter your Email</label><br>
+            <input type="email" placeholder="Email" name="Email" required tabindex="5"><br><br>
+
+            <label>Please enter your Phone number</label><br>
+            <input type="tel" placeholder="Phone number" name="Number" required tabindex="6"><br><br>
+
+            <textarea placeholder="Please enter your Question or Feedback" required tabindex="7"></textarea><br><br>
+
+            <label>Please select if you are sending us feedback or a question</label><br>
+
+            <input type="radio" id="feedback" name="input" value="Feedback" required tabindex="8">
+            <label for="feedback">Feedback</label><br>
+
+            <input type="radio" id="question" name="input" value="Question" tabindex="9">
+            <label>Question</label><br><br>
+            <input type="submit" value="Submit" tabindex="10">
+        </form>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41191.50939432968!2d-2.1536194818036316!3d57.13942068805487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4884054c1fd77549%3A0xe8bb05da5cf4c472!2sAberdeen!5e0!3m2!1sen!2suk!4v1648032579727!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        </div>
+    </div>
+    <h3 style="margin-top: 10%;">Our Contact methods are shown below</h3>
+    <footer>
+        <div class="methods">
+            <ul>
+                <li><a href="contact.html">Our Contact Form</a></li>
+                <li>123456789</li>
+                <li>SwiftComputing@SwiftComputing.com</li>
+                <li>11 High Street Aberdeen</li>
+                <li>Postcode</li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="images/swift-logo2.png" alt="a picture of the companies logo">
+        </div>
+    </footer>
+    </body>
+</html>
